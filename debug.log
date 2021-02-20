@@ -1,0 +1,4 @@
+[19-Feb-2021 17:10:30 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[19-Feb-2021 17:10:30 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[19-Feb-2021 17:11:03 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[19-Feb-2021 17:11:03 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
