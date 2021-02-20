@@ -4,7 +4,7 @@ body {
 }
 
 body.home {
-   background-color: rgb(40, 190, 228);    
+   background-color: #A9D943;    
 }
 
 body.home::after {
@@ -16,12 +16,11 @@ body.home::after {
    bottom: 0;
    left: 0;
    right: 0;
-
+   background-color: #F26444;
    z-index: -1;
-   clip-path: polygon(100% 66%, 72% 100%, 100% 100%);
-   background-color: #fff;
-      @include media-desktop {
-         clip-path: polygon(89% 0, 100% 0, 100% 100%, 64% 100%);
+   clip-path: polygon(83% 0, 0 0, 0 100%, 43% 100%);
+   @include media-desktop {
+         clip-path: polygon(0 0, 100% 0%, 100% 50%, 0 50%);
       }
 }
 
@@ -30,8 +29,10 @@ body.home::after {
 }
 
 .site-title {
+   display: flex;
    font-size:  clamp(2rem, #{"-0.875rem + 8.333vw"}, 4rem);
-   margin-bottom: 0;
+   margin-bottom: 0 auto;
+   justify-content: center;
    a {
       text-decoration: none;
       font-weight: bold;
@@ -47,11 +48,11 @@ body.home::after {
 
    ul{
       list-style-type: none;
-      font-size: clamp(.9rem, #{"-0.875rem + 8.333vw"}, 4rem);
+      margin: 1rem 0;
+      font-size: clamp(.9rem, 2vw, 4rem);
    }
 
    img {
       display: block;
-      border-radius: 50%;
    }
 }

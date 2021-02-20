@@ -538,16 +538,15 @@ a:hover, a:active {
 }
 
 .main-navigation a {
-  color: #fffdf4;
-  margin-left: 3rem;
+  color: #ef5b25;
 }
 
 .main-navigation a:visited {
-  color: #ffeba8;
+  color: #ef5b25;
 }
 
 .main-navigation a:hover, .main-navigation a:focus, .main-navigation a:active {
-  color: #ffffff;
+  color: #ef5b25;
 }
 
 .main-navigation a:focus {
@@ -559,15 +558,15 @@ a:hover, a:active {
 }
 
 .site-title a {
-  color: #ff0000;
+  color: #C4D979;
 }
 
 .site-title a:visited {
-  color: #ff0000;
+  color: #c7d889;
 }
 
 .site-title a:hover, .site-title a:focus, .site-title a:active {
-  color: #ff0000;
+  color: #cbda98;
 }
 
 .site-title a:focus {
@@ -698,9 +697,8 @@ textarea {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  background-color: #005;
+  background-color: #F2F2F2;
   position: absolute;
-  width: 100%;
 }
 
 .main-navigation ul ul {
@@ -714,6 +712,10 @@ textarea {
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
+}
+
+.main-navigation ul ul li {
+  flex: 1 1;
 }
 
 .main-navigation ul ul li:hover > ul,
@@ -1043,7 +1045,7 @@ body {
 }
 
 body.home {
-  background-color: #28bee4;
+  background-color: #A9D943;
 }
 
 body.home::after {
@@ -1055,14 +1057,14 @@ body.home::after {
   bottom: 0;
   left: 0;
   right: 0;
+  background-color: #F26444;
   z-index: -1;
-  clip-path: polygon(100% 66%, 72% 100%, 100% 100%);
-  background-color: #fff;
+  clip-path: polygon(83% 0, 0 0, 0 100%, 43% 100%);
 }
 
 @media (min-width: 800px) {
   body.home::after {
-    clip-path: polygon(89% 0, 100% 0, 100% 100%, 64% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 50%, 0 50%);
   }
 }
 
@@ -1071,8 +1073,10 @@ body.home::after {
 }
 
 .site-title {
+  display: flex;
   font-size: clamp(2rem, -0.875rem + 8.333vw, 4rem);
-  margin-bottom: 0;
+  margin-bottom: 0 auto;
+  justify-content: center;
 }
 
 .site-title a {
@@ -1087,11 +1091,11 @@ body.home::after {
 
 .accueil ul {
   list-style-type: none;
-  font-size: clamp(0.9rem, -0.875rem + 8.333vw, 4rem);
+  margin: 1rem 0;
+  font-size: clamp(0.9rem, 2vw, 4rem);
 }
 
 .accueil img {
   display: block;
-  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */

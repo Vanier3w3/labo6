@@ -7,10 +7,8 @@
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
-		background-color: #005;
+		background-color: #F2F2F2;
 		position: absolute;
-		width: 100%;
-
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			position: absolute;
@@ -24,7 +22,7 @@
 			}
 
 			li {
-
+				flex: 1 1;
 				&:hover > ul,
 				&.focus > ul {
 					display: block;
