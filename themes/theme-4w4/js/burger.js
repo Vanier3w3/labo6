@@ -11,7 +11,6 @@
             bar2.classList.remove('fermeX2')
             bar3.classList.add('ouvreX3')
             bar3.classList.remove('fermeX3')
-            console.log(bar3.classList)
         }
         else{
             bar1.classList.remove('ouvreX1')
@@ -20,8 +19,6 @@
             bar2.classList.add('fermeX2')
             bar3.classList.remove('ouvreX3')
             bar3.classList.add('fermeX3')
-            console.log(bar3.classList)
-
         }
     })
 })()

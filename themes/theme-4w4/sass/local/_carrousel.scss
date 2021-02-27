@@ -1,25 +1,19 @@
 .carrousel {
     display: flex;
+    margin-left: 25vw;
     width: 300vw;
     height: 20vh;
     transition: transform 1.5s ease-in-out;
 
     div{
-        width: 100vw;
+        width: 50vw;
         display: flex;
+        position: relative;
         align-items: center;
         justify-content: center;
 
-        &:nth-of-type(1){
-            background-image: url(../../../uploads/2021/353_Infographic_Triangle_R10V2_Branded-01.png);            
-        }
-        
-        &:nth-of-type(2){
-            background-color: rgb(67, 190, 98);
-        }
-        
-        &:nth-of-type(3){
-            background-color: rgb(141, 67, 190);
+        img{
+            height: 100%;
         }
     }
 }
@@ -39,10 +33,11 @@
         background-color: rgb(29, 29, 29);
         border-radius: 50%;
         margin: 0 5vw;
-        transition: opacity .5;
-
-        &:first-of-type{
-            opacity: .5;
-        }
+        transition: all 1s;
     }
+}
+
+.boutton-clip{
+    opacity: .5;
+    clip-path: polygon(20% -5%, -5% 20%, 25% 50%, -5% 80%, 20% 105%, 50% 75%, 80% 105%, 105% 80%, 75% 50%, 105% 20%, 80% -5%, 50% 25%);
 }
