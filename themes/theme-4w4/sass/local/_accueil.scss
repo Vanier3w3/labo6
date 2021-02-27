@@ -1,10 +1,13 @@
-body {
-   margin: 0;
-   padding: 0;
-}
 
 body.home {
-   background-color: #A9D943;    
+   background-color: $color__background-body;    
+   width: 100vw;
+   height: 100vh;
+
+   #primary {
+      margin-left: 0;
+      width: 100vw;
+   }
 }
 
 body.home::after {
@@ -20,18 +23,19 @@ body.home::after {
    z-index: -1;
    clip-path: polygon(83% 0, 0 0, 0 100%, 43% 100%);
    @include media-desktop {
-         clip-path: polygon(0 0, 100% 0%, 100% 50%, 0 50%);
+         clip-path: polygon(0 0, 100vw 0%, 100vw 50%, 0 50%);
       }
 }
 
 #page {
-   margin: 0 2rem 0 2rem;
+   margin: 0;
 }
 
 .site-title {
    display: flex;
+   width: 100vw;
    font-size:  clamp(2rem, #{"-0.875rem + 8.333vw"}, 4rem);
-   margin-bottom: 0 auto;
+   margin-bottom: 0;
    justify-content: center;
    a {
       text-decoration: none;
