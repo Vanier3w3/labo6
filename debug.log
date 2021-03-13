@@ -2,3 +2,24 @@
 [19-Feb-2021 17:10:30 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
 [19-Feb-2021 17:11:03 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
 [19-Feb-2021 17:11:03 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[08-Mar-2021 13:24:51 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[08-Mar-2021 13:24:51 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[08-Mar-2021 13:27:07 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[08-Mar-2021 13:27:07 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[08-Mar-2021 15:13:24 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\category-cours.php on line 46
+[08-Mar-2021 15:13:27 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\category-cours.php on line 46
+[08-Mar-2021 15:26:03 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 200
+[08-Mar-2021 15:26:08 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 200
+[08-Mar-2021 15:31:51 UTC] PHP Parse error:  syntax error, unexpected variable "$session" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\category-cours.php on line 29
+[13-Mar-2021 01:07:31 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
+[13-Mar-2021 01:07:31 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
+[13-Mar-2021 01:07:31 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
+[13-Mar-2021 01:07:34 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
+[13-Mar-2021 01:07:34 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
+[13-Mar-2021 01:07:34 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
+[13-Mar-2021 01:10:46 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
+[13-Mar-2021 01:10:46 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
+[13-Mar-2021 01:10:46 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
+[13-Mar-2021 01:38:49 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
+[13-Mar-2021 01:38:49 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
+[13-Mar-2021 01:38:49 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
