@@ -704,23 +704,22 @@ body {
 
 .main-navigation ul {
   display: none;
-  position: absolute;
-  width: 100%;
   list-style: none;
   margin: 0;
   padding-left: 0;
-  background-color: #000;
+  background-color: #F2F2F2;
   /*fin du menu*/
 }
 
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
+  height: 0;
   position: absolute;
   top: 100%;
-  transition: left .5s;
   left: -999em;
   z-index: 99999;
+  transition: height 1s;
   /* 
 
 			:hover > a,
@@ -732,11 +731,6 @@ body {
 			} 
 			
 			*/
-}
-
-.main-navigation ul ul ul {
-  left: -999em;
-  top: 0;
 }
 
 .main-navigation ul ul li {
@@ -760,6 +754,7 @@ body {
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: 0;
+  height: auto;
 }
 
 .main-navigation ul li {
@@ -788,19 +783,21 @@ body {
   padding: .5rem;
 }
 
-/* -----------------------------------------------------------------------------
-Bouton burger 
-------------------------------------------------------------------------------*/
+/*	----------------------------------------------
+Bouton burger
+----------------------------------------------	*/
 .menu-toggle {
-  padding: 0;
+  padding: 0rem;
   border: 0;
+  margin: 0 auto;
+  transition: transform .25s;
+  transform: rotate(0);
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background: #fafbfc;
-}
-
+/* menu-toggle:hover,
+menu-toggle:focus {
+    background: #fafafa;
+} */
 .menu-toggle:focus {
   outline: 1px solid #fff;
   outline-offset: -4px;
@@ -810,42 +807,45 @@ Bouton burger
   transform: scale(0.99);
 }
 
-/*
-.main-navigation.toggled .menu-toggle{
-	transform : rotate(90deg);
-}
-*/
+/* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
-/* ---------------------------------------------------------------------------
-menu tablet
------------------------------------------------------------------------------- */
+/*	-------------------------------------------------------------------------------------------------------
+Version Tablet
+-------------------------------------------------------------------------------------------------------		*/
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none;
   }
-  .main-navigation.toggled ul,
-  .main-navigation ul {
+  .main-navigation ul,
+  .main-navigation.toggled ul {
     display: flex;
     position: static;
     justify-content: space-around;
   }
-  .main-navigation.toggled ul a[href="#"]::after,
-  .main-navigation ul a[href="#"]::after {
+  .main-navigation ul a[href="#"]::after,
+  .main-navigation.toggled ul a[href="#"]::after {
     display: none;
   }
-  .main-navigation.toggled ul li:hover ul,
-  .main-navigation ul li:hover ul {
+  .main-navigation ul a:hover,
+  .main-navigation.toggled ul a:hover {
+    color: black;
+  }
+  .main-navigation ul li:hover ul,
+  .main-navigation.toggled ul li:hover ul {
     display: block;
     position: absolute;
     width: 400px;
-    height: 500px;
   }
-  .main-navigation.toggled ul ul,
-  .main-navigation ul ul {
+  .main-navigation ul li:hover ul:hover,
+  .main-navigation.toggled ul li:hover ul:hover {
+    color: black;
+  }
+  .main-navigation ul ul,
+  .main-navigation.toggled ul ul {
     display: none;
     width: 400px;
   }
