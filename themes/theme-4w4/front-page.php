@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-///////////////////////////////////////////////////////////////////////// CATEGORY-COURS.PHP
+///////////////////////////////////////////////////////////////////////// FRONT-PAGE.PHP
 	<main id="primary" class="site-main">
 
 		<?php if ( have_posts() ) : ?>
@@ -26,19 +26,24 @@ get_header();
             $precedent = 0;
 			while ( have_posts() ) :
 				the_post();
-                $titre = get_the_title();
+				$titre = get_the_title();
+				//	582-1W1 Mise en page Web (75h)
+				$sigle = substr($titre, 0, 7);
+				$nbHeure = substr($titre, -4, 3);
+				$titrePartielle = substr($titre, -6, -16);
                 $session = substr($titre, 4,1);
                 $contenu = get_the_content();
                 $resume = substr($contenu, 0, 200);
+				$typeCours = get_field('type_de_cours');
 
             ?>
             <?php 
-                if($session != $precedent){
+/*                 if($session != $precedent){
                     echo "<p>Session : " . $session . "</p>";
                 }
-                $precedent = $session;
+                $precedent = $session; */
             ?>
-            <p><?php echo $session . " - " . $titre; ?></p>
+            <p><?php echo $typeCours . " - " . $session . " - " . $titre; ?></p>
             <p><?php echo $resume; ?></p>
             
         <?php

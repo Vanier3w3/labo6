@@ -248,3 +248,20 @@
 [13-Mar-2021 05:12:03 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
 [13-Mar-2021 05:12:03 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
 [13-Mar-2021 05:12:03 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
+[19-Mar-2021 14:54:54 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
+[19-Mar-2021 14:54:54 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
+[19-Mar-2021 14:54:54 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
+[19-Mar-2021 14:54:55 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
+[19-Mar-2021 14:54:55 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
+[19-Mar-2021 14:54:55 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
+[19-Mar-2021 14:55:18 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4044
+[19-Mar-2021 14:55:18 UTC] PHP Warning:  Attempt to read property "post_title" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4046
+[19-Mar-2021 14:55:18 UTC] PHP Warning:  Attempt to read property "post_name" on null in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 4048
+[19-Mar-2021 15:20:22 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[19-Mar-2021 15:20:22 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[19-Mar-2021 15:20:37 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[19-Mar-2021 15:20:37 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[19-Mar-2021 16:04:56 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[19-Mar-2021 16:04:56 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[19-Mar-2021 16:05:36 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
+[19-Mar-2021 16:05:36 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
