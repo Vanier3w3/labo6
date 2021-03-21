@@ -265,3 +265,6 @@
 [19-Mar-2021 16:04:56 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
 [19-Mar-2021 16:05:36 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 21
 [19-Mar-2021 16:05:36 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in C:\xampp\htdocs\4w4\wp-content\plugins\wordpress-importer\parsers\class-wxr-parser-simplexml.php on line 25
+[21-Mar-2021 01:01:35 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 212
+[21-Mar-2021 01:01:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[21-Mar-2021 01:01:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4\wp-includes\class-wp-recovery-mode-email-service.php on line 352

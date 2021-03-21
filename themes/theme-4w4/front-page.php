@@ -38,7 +38,7 @@ get_header();
 
             ?>
 				<article>
-					<p><?php echo $sigle . " - " . $typeCours; ?></p>
+					<p><?php echo $sigle . " - " . $typeCours . " - " . $nbHeure; ?></p>
 					<a href="<?php echo get_permalink(); ?>"><?php echo $titrePartiel; ?></a>
 					<p>Session : <?php echo $session; ?></p>
 				</article>       

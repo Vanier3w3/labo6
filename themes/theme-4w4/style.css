@@ -1150,6 +1150,29 @@ body.home::after {
   margin-bottom: 0;
 }
 
+.home .cours {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .cours article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.home .cours article p {
+  margin: .3rem;
+  font-size: 1rem;
+}
+
+.home .cours article a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* Local/carrousel
 --------------------------------------------- */
 .carrousel {

@@ -47,3 +47,27 @@ body.home::after {
    font-size:  clamp(.9rem, #{"-0.875rem + 8.333vw"}, 4rem);
    margin-bottom: 0;
 }
+
+
+.home .cours {
+   display: flex;
+   flex-direction: column;
+
+   article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid black;
+
+      p {
+         margin: .3rem;
+         font-size: 1rem;
+      }
+
+      a {
+         font-size: 2rem;
+         font-weight: bold;
+      }
+   }
+}
