@@ -43,7 +43,7 @@ get_header();
 					<p>Session : <?php echo $session; ?></p>
 				</article>       
         	<?php endwhile; ?>
-			</section>
+			</section>	<!-- fin section cours -->
 		<?php endif;?>
 
 	</main><!-- #main -->
