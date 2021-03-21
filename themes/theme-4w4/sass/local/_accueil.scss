@@ -47,16 +47,3 @@ body.home::after {
    font-size:  clamp(.9rem, #{"-0.875rem + 8.333vw"}, 4rem);
    margin-bottom: 0;
 }
-
-.accueil {
-
-   ul{
-      list-style-type: none;
-      margin: 1rem 0;
-      font-size: clamp(.9rem, 2vw, 4rem);
-   }
-
-   img {
-      display: block;
-   }
-}
