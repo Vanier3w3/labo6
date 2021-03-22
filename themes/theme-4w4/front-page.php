@@ -37,15 +37,17 @@ get_header();
 					if ("XXXXXX" != $precedent): ?>
 						</section>
 					<?php endif;?>
-					<h2><?php echo $typeCours; ?></h2>
 					<section>
+					<h2><?php echo $typeCours; ?></h2>
 				<?php endif; ?>
 
 
 				<article>
-					<p><?php echo $sigle . " - " . $typeCours . " - " . $nbHeure; ?></p>
-					<a href="<?php echo get_permalink(); ?>"><?php echo $titrePartiel; ?></a>
-					<p>Session : <?php echo $session; ?></p>
+					<a href="<?php echo get_permalink(); ?>">
+						<p><?php echo $sigle . " - " . $typeCours . " - " . $nbHeure; ?></p>
+						<p><?php echo $titrePartiel; ?></p>
+						<p>Session : <?php echo $session; ?></p>
+					</a>
 				</article>       
         	<?php 
 			$precedent = $typeCours;
