@@ -2,7 +2,7 @@
 body.home {
    background-color: $color__background-body;    
    width: 100vw;
-   height: 500vh;
+   height: 100vh;
    overflow-x: hidden;
 
    #primary {
@@ -59,9 +59,6 @@ body.home::after {
    margin-bottom: 0;
 }
 
-h1 {
-}
-
 /*----------------------------------------------------------------------------------
 Liste des bloc de cours par type_de_cours
 ---------------------------------------------------------------------------------- */
@@ -69,6 +66,15 @@ Liste des bloc de cours par type_de_cours
 .home .cours {
    display: flex;
    flex-direction: column;
+
+   h2 {
+      width: 95vw;
+      padding-left: 10%;
+      border-top: 2px solid white;
+      font-style: italic ;
+      font-weight: bolder;
+      font-size: 2rem;
+   }
 
    section {
       display: flex;

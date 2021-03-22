@@ -1101,7 +1101,7 @@ Version Tablet
 body.home {
   background-color: #A9D943;
   width: 100vw;
-  height: 500vh;
+  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -1170,6 +1170,15 @@ Liste des bloc de cours par type_de_cours
 .home .cours {
   display: flex;
   flex-direction: column;
+}
+
+.home .cours h2 {
+  width: 95vw;
+  padding-left: 10%;
+  border-top: 2px solid white;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 .home .cours section {
