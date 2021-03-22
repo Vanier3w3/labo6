@@ -6,8 +6,18 @@ body.home {
    overflow-x: hidden;
 
    #primary {
-      margin: 0;
+      margin: 0 2rem;
       width: 100vw;
+
+      h1 {
+         text-align: center;
+         color: white;
+         text-decoration: underline $color__background-body;
+         @include media-desktop {
+            text-decoration: underline #F26444;
+         }
+
+      }
    }
 }
 
@@ -49,6 +59,9 @@ body.home::after {
    margin-bottom: 0;
 }
 
+h1 {
+}
+
 /*----------------------------------------------------------------------------------
 Liste des bloc de cours par type_de_cours
 ---------------------------------------------------------------------------------- */
@@ -67,11 +80,13 @@ Liste des bloc de cours par type_de_cours
          flex-direction: column;
          justify-content: space-between;
          align-items: center;
+         text-align: center;
          width: 29%;
          margin: 1%;
          background-color: white;
          border-radius: 5%;
          padding: 1rem;
+
          p {
             margin: .4rem;
             font-size: 1rem;

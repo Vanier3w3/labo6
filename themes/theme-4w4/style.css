@@ -823,7 +823,8 @@ Version Tablet
   .main-navigation ul,
   .main-navigation.toggled ul {
     display: flex;
-    position: static;
+    position: sticky;
+    top: -10;
     justify-content: space-around;
   }
   .main-navigation ul a[href="#"]::after,
@@ -1105,8 +1106,20 @@ body.home {
 }
 
 body.home #primary {
-  margin: 0;
+  margin: 0 2rem;
   width: 100vw;
+}
+
+body.home #primary h1 {
+  text-align: center;
+  color: white;
+  text-decoration: underline #A9D943;
+}
+
+@media (min-width: 1200px) {
+  body.home #primary h1 {
+    text-decoration: underline #F26444;
+  }
 }
 
 body.home::after {
@@ -1170,6 +1183,7 @@ Liste des bloc de cours par type_de_cours
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   width: 29%;
   margin: 1%;
   background-color: white;

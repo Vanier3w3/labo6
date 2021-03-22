@@ -136,7 +136,8 @@ Version Tablet
 	.main-navigation ul, 
 	.main-navigation.toggled ul {
 		display: flex;
-		position: static;
+		position: sticky;
+		top: -10;
 		justify-content: space-around;
 
 		a[href="#"]::after {
