@@ -1170,9 +1170,11 @@ Liste des bloc de cours par type_de_cours
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
   width: 29%;
   margin: 1%;
+  background-color: white;
+  border-radius: 5%;
+  padding: 1rem;
 }
 
 .home .cours section article p {
