@@ -714,12 +714,11 @@ body {
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
-  height: 0;
   position: absolute;
   top: 100%;
-  left: -999em;
+  transition: clip-path .5s ease-in-out;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   z-index: 99999;
-  transition: height 1s;
   /* 
 
 			:hover > a,
@@ -753,8 +752,7 @@ body {
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
-  left: 0;
-  height: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .main-navigation ul li {
@@ -811,6 +809,7 @@ menu-toggle:focus {
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
+  z-index: 20;
 }
 
 /*	-------------------------------------------------------------------------------------------------------
@@ -823,8 +822,6 @@ Version Tablet
   .main-navigation ul,
   .main-navigation.toggled ul {
     display: flex;
-    position: sticky;
-    top: -10;
     justify-content: space-around;
   }
   .main-navigation ul a[href="#"]::after,
@@ -847,7 +844,7 @@ Version Tablet
   }
   .main-navigation ul ul,
   .main-navigation.toggled ul ul {
-    display: none;
+    display: block;
     width: 400px;
   }
 }
