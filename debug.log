@@ -268,3 +268,68 @@
 [21-Mar-2021 01:01:35 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 212
 [21-Mar-2021 01:01:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4\wp-includes\class-wp-recovery-mode-email-service.php on line 351
 [21-Mar-2021 01:01:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[25-Mar-2021 16:52:11 UTC] PHP Fatal error:  Cannot use temporary expression in write context in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 71
+[25-Mar-2021 16:53:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "tPropriete" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php:28
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 28
+[25-Mar-2021 16:53:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "tPropriete" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php:28
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 28
+[25-Mar-2021 16:54:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "tPropriete" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php:28
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 28
+[25-Mar-2021 16:54:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "tPropriete" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php:28
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 28
+[25-Mar-2021 16:58:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "tPropriete" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php:28
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 28
+[25-Mar-2021 16:58:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "tPropriete" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php:28
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 28
+[25-Mar-2021 16:59:05 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 16:59:05 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:00:08 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:00:08 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:00:16 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:00:16 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:01:26 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:01:26 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:01:36 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:01:36 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:03:14 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:03:14 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:08:49 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:08:49 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:08:56 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:08:56 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:09:04 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:09:04 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:09:27 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:09:27 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:11:42 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
+[25-Mar-2021 17:11:42 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
