@@ -35,8 +35,8 @@ get_header();
 					if ("XXXXXX" != $precedent): ?>
 						</section>
 					<?php endif;?>
-					<h2><?php echo $tPropriete['typeCours']; ?></h2>
 					<section <?php echo($tPropriete['typeCours']== 'Web' ? 'class="carrousel-2"':'') ?>>
+					<h2><?php echo $tPropriete['typeCours']; ?></h2>
 				<?php endif; ?>
 				<?php
 				if($tPropriete['typeCours'] == 'Web') :

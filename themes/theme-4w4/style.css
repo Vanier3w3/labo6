@@ -1490,6 +1490,8 @@ La barre du millieu
 
 .carrousel-2 .slide__conteneur .slide .slide__info a p {
   font-size: .8rem;
+  right: 0;
+  left: 0;
 }
 
 .carrousel-2 .slide__conteneur:nth-of-type(1) {
