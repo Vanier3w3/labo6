@@ -333,3 +333,27 @@ Stack trace:
 [25-Mar-2021 17:09:27 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
 [25-Mar-2021 17:11:42 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 30
 [25-Mar-2021 17:11:42 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 31
+[25-Mar-2021 17:27:05 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 38
+[25-Mar-2021 17:27:05 UTC] PHP Warning:  Undefined array key "precedent" in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php on line 39
+[25-Mar-2021 19:42:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_thumbnail() in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\template-parts\content-cours-article.php:22
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\4w4\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\4w4\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php(73): get_template_part('template-parts/...', 'cours-article')
+#4 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\template-parts\content-cours-article.php on line 22
+[25-Mar-2021 19:42:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_thumbnail() in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\template-parts\content-cours-article.php:22
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\4w4\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\4w4\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\front-page.php(73): get_template_part('template-parts/...', 'cours-article')
+#4 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\template-parts\content-cours-article.php on line 22

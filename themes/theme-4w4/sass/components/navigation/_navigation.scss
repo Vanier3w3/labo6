@@ -4,6 +4,7 @@
 
 	ul {
 		display: none;
+		position: relative;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
@@ -14,11 +15,13 @@
 			float: left;
 			position: absolute;
 			top: 100%;
+			left: -100px;
 			transition: clip-path .5s ease-in-out;
 			clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 			z-index: 99999;
+			
 	
-
+		
 			li {
 				a {
 					padding-left: 20px;
@@ -49,8 +52,9 @@
 			
 			*/
 		}
-
+		
 		/*fin du menu*/
+
 
 		li:hover>ul,
 		li.focus>ul {
@@ -136,6 +140,7 @@ Version Tablet
 	.main-navigation ul, 
 	.main-navigation.toggled ul {
 		display: flex;
+		width: 100vw;
 		justify-content: space-around;
 
 		a[href="#"]::after {
@@ -149,7 +154,6 @@ Version Tablet
 		li:hover ul {
 			display: block;
 			position: absolute;
-			width: 400px;
 
 			&:hover{
 				color: black;

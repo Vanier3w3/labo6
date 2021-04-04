@@ -9,6 +9,12 @@
 
 get_header();
 ?>
+	<main id="primary" class="site-main">
+	<section class="ctrl-carrousel">
+		<input type="radio" class="rad-carrousel" name="rad-carrousel">
+		<input type="radio" class="rad-carrousel" name="rad-carrousel">
+		<input type="radio" class="rad-carrousel" name="rad-carrousel">
+	</section>
 
 		<?php if ( have_posts() ) : ?>
 
@@ -25,16 +31,20 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
 				convertirTableau($tPropriete);
-
-				if ($tPropriete['typeCours'] != $tPropriete['precedent']): 
-					if ("XXXXXX" != $tPropriete['precedent']): ?>
+				if ($tPropriete['typeCours'] != $precedent): 
+					if ("XXXXXX" != $precedent): ?>
 						</section>
 					<?php endif;?>
-					<section>
 					<h2><?php echo $tPropriete['typeCours']; ?></h2>
+					<section <?php echo($tPropriete['typeCours']== 'Web' ? 'class="carrousel-2"':'') ?>>
 				<?php endif; ?>
-				<?php get_template_part( 'template-parts/content', 'cours-article');
-				$tPropriete['precedent'] = $tPropriete['typeCours'];
+				<?php
+				if($tPropriete['typeCours'] == 'Web') :
+					get_template_part( 'template-parts/content', 'cours-carrousel');
+				else :
+					get_template_part( 'template-parts/content', 'cours-article');
+				endif;
+				$precedent = $tPropriete['typeCours'];
 			endwhile; ?>
 			</section>	<!-- fin section cours -->
 			<?php rewind_posts(); ?>
